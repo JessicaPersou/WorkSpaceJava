@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BasicAndExpressions/BasicAndExpressions.iml" filepath="$PROJECT_DIR$/BasicAndExpressions/BasicAndExpressions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ClassAndAttribute/ClassAndAttribute.iml" filepath="$PROJECT_DIR$/ClassAndAttribute/ClassAndAttribute.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/WorkspaceJava.iml" filepath="$PROJECT_DIR$/.idea/WorkspaceJava.iml" />
+    </modules>
+  </component>
+</project>
