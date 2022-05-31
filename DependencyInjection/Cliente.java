@@ -1,31 +1,23 @@
 public class Cliente {
     private String nome;
-    private String contato;
+    private String email;
+    private String telefone;
+    private boolean compraFeita = false;
 
-    private boolean comprando = false;
-
-    public Cliente(String nome, String contato) {
+    public Cliente(String nome, String email, String telefone) {
         this.nome = nome;
-        this.contato = contato;
+        this.email = email;
+        this.telefone = telefone;
     }
-
     public String getNome() {
         return nome;
     }
-
-    public void setNome(String nome) {
-        this.nome = nome;
+    public String getEmail() {
+        return email;
     }
-
-    public String getContato() {
-        return contato;
-    }
-
-    public void setContato(String contato) {
-        this.contato = contato;
-    }
-
+    public String getTelefone(){ return telefone; }
+    public boolean getCompraFeita(){ return compraFeita; }
     public void comprou() {
-        this.comprando = true;
+        this.compraFeita = true;
     }
 }
