@@ -7,6 +7,6 @@ import notificar.NotificarEmail;
 public class NotaProdutoService {
     public void emitir(Cliente cliente, Produto produto){
         NotificarEmail notificaNota = new NotificarEmail();
-        notificaNota.compraNotificaEmail(cliente, "Nota do produto: " + produto.getNome() + ", emitida!");
+       // notificaNota.compraNotificaEmail(cliente, "Nota do produto: " + produto.getNome() + ", emitida!");
     }
 }

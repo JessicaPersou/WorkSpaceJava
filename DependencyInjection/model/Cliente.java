@@ -4,7 +4,7 @@ public class Cliente {
     private String nome;
     private String email;
     private String telefone;
-    private boolean compraFeita = false;
+    private boolean ativo = false;
 
     public Cliente(String nome, String email, String telefone) {
         this.nome = nome;
@@ -18,8 +18,9 @@ public class Cliente {
         return email;
     }
     public String getTelefone(){ return telefone; }
-    public boolean getCompraFeita(){ return compraFeita; }
-    public void comprou() {
-        this.compraFeita = true;
+    public boolean getIsAtivo(){ return ativo; }
+
+    public void ativar() {
+        this.ativo = true;
     }
 }
