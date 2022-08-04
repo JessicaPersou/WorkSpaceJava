@@ -32,5 +32,6 @@ public class AttributesAndMethods {
         System.out.println("Raça: " + dog2.breed);
         System.out.println("Sexo: " + dog2.gender);
         System.out.println("Idade: " + dog2.age);*/
+
     }
 }
