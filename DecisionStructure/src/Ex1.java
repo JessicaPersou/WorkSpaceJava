@@ -18,6 +18,15 @@ public class Ex1 {
             }else{
                 System.out.println("Third number is bigger that anothers!");
             }
+
+            //test ternary operator
+            int value1 = 5;
+            int value2 = 10;
+
+            boolean sintax = (value1 == value2) ?  true :  false;
+
+            System.out.println(sintax);
+
     }
 
 }
