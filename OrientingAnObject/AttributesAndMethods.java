@@ -1,7 +1,7 @@
 public class AttributesAndMethods {
-    public static void main(String[] args) {
-        /*User jessi = new User();
-        Animal cachorro = new Animal();*/
+    /*public static void main(String[] args) {
+        User jessi = new User();
+        Animal cachorro = new Animal();
 
         Dog dog1 = new Dog();
         dog1.name = "Mel";
@@ -21,7 +21,7 @@ public class AttributesAndMethods {
         System.out.println("Idade: " + dog1.age);
 
 
-        /*Dog dog2 = new Dog();
+        Dog dog2 = new Dog();
         dog2.name = "Marley";
         dog2.breed = "Bulldog Inglês";
         dog2.gender = "Macho";
@@ -31,7 +31,7 @@ public class AttributesAndMethods {
         System.out.println("Ficha 2: "+ dog2.name);
         System.out.println("Raça: " + dog2.breed);
         System.out.println("Sexo: " + dog2.gender);
-        System.out.println("Idade: " + dog2.age);*/
+        System.out.println("Idade: " + dog2.age);
 
-    }
+    }*/
 }
