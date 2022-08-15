@@ -12,10 +12,11 @@ public class Main {
         dev.salario = sc.nextDouble();
         System.out.println("O seu salário líquido é: " + dev.descontoINSS());*/
 
+        Pessoa f1 = new Pessoa();
+        f1.nome = "Jõao";
+        f1.salarioLiquido = 4050.00;
 
-
-
-        System.out.println("o seu salario e R$: " +  dev.descontoINSS(4050));
+        System.out.println("o seu salario e R$: " +  dev.descontoINSS(f1));
     }
 
 }

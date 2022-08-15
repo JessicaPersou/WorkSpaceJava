@@ -1,34 +1,35 @@
 public class DescontosDoEmpregado {
 
-    double descontoINSS(double salarioLiquido){
+
+    double descontoINSS(Pessoa pessoa){
 
         double desconto;
 
-        if(salarioLiquido <= 1212.00){
-            desconto = (salarioLiquido * 7.5)/100;
+        if(pessoa.salarioLiquido <= 1212.00){
+            desconto = (pessoa.salarioLiquido * 7.5)/100;
             System.out.println("Valor de desconto e: " + desconto);
-            salarioLiquido = salarioLiquido - desconto;
+            pessoa.salarioLiquido = pessoa.salarioLiquido - desconto;
 
-        } else if (salarioLiquido >= 1212.01 && salarioLiquido <= 2427.35) {
+        } else if (pessoa.salarioLiquido >= 1212.01 && pessoa.salarioLiquido <= 2427.35) {
 
-            desconto = (salarioLiquido * 9)/100;
+            desconto = (pessoa.salarioLiquido * 9)/100;
             System.out.println("Valor de desconto e: " + desconto);
-            salarioLiquido = salarioLiquido - desconto;
+            pessoa.salarioLiquido = pessoa.salarioLiquido - desconto;
 
-        } else if (salarioLiquido >= 2427.36 &&  salarioLiquido <= 3641.03 ) {
+        } else if (pessoa.salarioLiquido >= 2427.36 &&  pessoa.salarioLiquido <= 3641.03 ) {
 
-            desconto = (salarioLiquido * 12)/100;
+            desconto = (pessoa.salarioLiquido * 12)/100;
             System.out.println("Valor de desconto e: " + desconto);
-            salarioLiquido = salarioLiquido - desconto;
+            pessoa.salarioLiquido = pessoa.salarioLiquido - desconto;
 
-        } else if (salarioLiquido >= 3641.04 && salarioLiquido <= 7087.22 ) {
+        } else if (pessoa.salarioLiquido >= 3641.04 && pessoa.salarioLiquido <= 7087.22 ) {
 
-            desconto = (salarioLiquido * 14)/100;
+            desconto = (pessoa.salarioLiquido * 14)/100;
             System.out.println("Valor de desconto e: " + desconto);
-            salarioLiquido = salarioLiquido - desconto;
+            pessoa.salarioLiquido = pessoa.salarioLiquido - desconto;
 
         }
-        return salarioLiquido;
+        return pessoa.salarioLiquido;
         
     }
 }
