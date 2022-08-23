@@ -15,7 +15,6 @@ public class Main {
         Pessoa f1 = new Pessoa();
         f1.nome = "Jõao";
         f1.salarioLiquido = 4050.00;
-
         System.out.println("o seu salario e R$: " +  dev.descontoINSS(f1));
     }
 
