@@ -1,13 +1,13 @@
 package Desafio3;
 
 public class Funcionario {
-    int filho;
-    double valorNormal;
-    double valorExtra;
-    double adicionalFilho;
+
+        String nome;
+        int possuiFilhos;
+
+        boolean possuiFilhos(){
+            return possuiFilhos >0;
+        }
 
 
-    boolean temFilho(){
-        return filho > 0;
-    }
 }
