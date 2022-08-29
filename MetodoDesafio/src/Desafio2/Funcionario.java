@@ -8,4 +8,7 @@ public class Funcionario {
         return quantiFilhos >0;
     }
 
+    void nomeFuncionario(String nome){
+        System.out.printf("O nome do funcionário é: %d %n", this.nome);
+    }
 }
