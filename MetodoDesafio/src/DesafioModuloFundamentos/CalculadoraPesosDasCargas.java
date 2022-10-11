@@ -1,4 +1,4 @@
-package DesafioModuloBásico;
+package DesafioModuloFundamentos;
 
 
 public class CalculadoraPesosDasCargas {
