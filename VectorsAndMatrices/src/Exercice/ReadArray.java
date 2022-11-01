@@ -1,3 +1,5 @@
+package Exercice;
+
 import java.util.Scanner;
 
 public class ReadArray {

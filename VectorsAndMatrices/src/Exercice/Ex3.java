@@ -1,3 +1,5 @@
+package Exercice;
+
 import java.util.Scanner;
 /*Escreve um programa que lê duas matrizes N1 (4,6) e N2(4,6) e cria:
 a) Uma matriz M1 cujos elementos serão as somas dos elementos de mesma posição das matrizes N1 e N2;
