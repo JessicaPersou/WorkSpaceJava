@@ -12,4 +12,9 @@ public class Product {
     void printExpensePacking(){
         System.out.printf("Custo com embalagem: %.2f%n", packing);
     }
+
+    double totalValue(){
+        double total = Product.packing + this.sale;
+        return total;
+    }
 }
