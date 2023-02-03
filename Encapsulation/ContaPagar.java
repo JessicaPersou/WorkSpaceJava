@@ -11,19 +11,17 @@ public class ContaPagar implements Serializable {
 
 
     public void pagar(){
-        if(this.valor > 0){
-            this.isPago();
-            this.pago =  true;
+        if(isPago()){
+            throw new RuntimeException("Essa conta já foi paga");
         }
+        pago = true;
     }
 
     public void cancelarPagamento(){
-        if(isPago() == false){
-            pagar();
-        }else {
-            this.pago = false;
-        }return;
-
+        if(isPendente()) {
+            throw new RuntimeException("Conta está pendente de pagamento");
+        }
+        pago = false;
     }
 
     public String getDescricao() {
@@ -52,6 +50,10 @@ public class ContaPagar implements Serializable {
 
     public boolean isPago() {
         return pago;
+    }
+
+    public boolean isPendente(){
+        return !isPago();
     }
 
     public Fornecedor getFornecedor() {
