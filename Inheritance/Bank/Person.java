@@ -13,8 +13,11 @@ public class Person {
         return name;
     }
 
-
     public String getDocument() {
         return document;
+    }
+
+    public String toString(){
+        return String.format("%s\nCPF: %s", name,document);
     }
 }
