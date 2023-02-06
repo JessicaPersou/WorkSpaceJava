@@ -59,7 +59,7 @@ public class Account {
     }
 
 
-    public int getBalance() {
+    public final int getBalance() {
         return balance;
     }
 
